@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "FriendFinder dating application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gglinoga/FriendFinder.git"
+  },
+  "author": "gglinoga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gglinoga/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/gglinoga/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11",
+    "path": "^0.12.7"
+  }
+}
